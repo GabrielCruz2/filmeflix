@@ -43,3 +43,9 @@ nav a {
 .clear {
     clear: both;
 }
+footer {
+    height: 280px;
+}
+.cabaçalho {
+    height: 280px;
+}
