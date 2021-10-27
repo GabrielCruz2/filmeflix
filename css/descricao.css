@@ -49,3 +49,8 @@ footer {
 .cabaçalho {
     height: 280px;
 }
+
+body {
+    background-image: linear-gradient(to right top, #9AF6FB, #7096F8);
+    min-height: 100vh
+    }
