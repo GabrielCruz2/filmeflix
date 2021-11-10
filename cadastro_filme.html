@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+    <head>
+        <title>Cadstro de filmes</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/cadastro_filme.css">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    </head>
+    <body>
+        <header>
+            <div class="cabeçalho">
+                <nav>
+                    <ul>
+                        <li><a href="index.html"> Home</a></li>
+                        <li><a href="descricao.html"> Descrição </a></li>
+                        <li><a href="desenvovedores.html"> desenvolvidores</a></li>
+                        <li><a href="dal.html">Daltonismo</a></li>
+                        <li><a href="login.html">login</a></li>
+                        <li><a href="cadastro.html">cadastro</a></li>
+                        <li><a href="cadastro_filme.html">cadastrar filme</a></li>
+                        <li><a href="ajuda.html">ajuda</a></li>
+                    </ul>
+                </nav>
+                <h1 style="color: red;">Filme Flix</h1>
+            </div>
+            <div class="meio">
+                <div class="cadastroFilme">
+                    <form name="cadastroFilme" onsubmit="return validarForm()" method="post">
+                        <fieldset>
+                            <legend>Cadastrar filme</legend>
+                            <label>Titulo</label><br>
+                            <input class="campo" type="text" name="nome" value=""><br><br>
+                            <label>Elenco principal</label><br>
+                            <textarea name="elenco"></textarea><br><br>
+                            <label>Sinopse</label><br>
+                            <textarea name="descricao"></textarea><br><br>
+                            <label>Produtora do filme</label><br>
+                            <input class="campo" type="text" name="produtor" value=""><br><br>
+                            <label>Duração do filme</label><br>
+                            <input class="campo" type="text" name="duracao" value=""><br><br>
+                            <label>Indicação etária</label><br>
+                            <input class="campo" type="text" name="restricao" value=""><br><br>
+                            <label for="destaque">Colocar em destaque</label>
+                            <input type="checkbox" name="destaque" value="Em destaque"><br><br>
+                            <input type="submit" value="CONFIRMAR">
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </header>
+        <footer>
+            <h2></h2>
+        </footer>
+        <script>
+
+        </script>
+    </body>
+</html>
